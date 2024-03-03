@@ -1,5 +1,5 @@
 name: ecmrsdesignshayon
-description: "A new Flutter package project."
+description: "reusable Flutter ecommers ui design package"
 version: 0.0.1
 homepage:
 
@@ -10,6 +10,28 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+#  provider: ^6.1.2
+  http: ^1.1.0
+  intl: ^0.18.1
+  logger: ^2.0.1
+  url_launcher: ^6.1.12
+  #Icons
+  iconsax: ^0.0.8
+  cupertino_icons: ^1.0.2
+  smooth_page_indicator: ^1.1.0
+
+  flutter_native_splash: ^2.3.1
+  #State Management
+  get: ^4.6.5
+  get_storage: ^2.1.1
+
+  # Product Specific
+  readmore: ^2.2.0
+  carousel_slider: ^4.2.1
+  flutter_rating_bar: ^4.0.1
+  capped_progress_indicator: ^0.0.2
+  shared_preferences: ^2.2.2
+  hidable: ^1.0.6
 
 dev_dependencies:
   flutter_test:
@@ -21,6 +43,7 @@ dev_dependencies:
 
 # The following section is specific to Flutter packages.
 flutter:
+
 
   # To add assets to your package, add an assets section, like this:
   # assets:
